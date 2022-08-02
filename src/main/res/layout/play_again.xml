@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wrongAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/wrongans"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/silvio_perdeu"
+        />
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/play_again"
+        android:textSize="40dp"
+        android:background="@drawable/botao_show"/>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="Lucas.integrador.HomeScreen"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/unisales" />
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="104dp"
+        android:src="@drawable/logo" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/silvio" />
+
+    <Button
+        android:id="@+id/playGame"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/play_game"
+        android:background="@drawable/botao_show"
+        android:textSize="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></View>
+
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/quit"
+        android:textSize="20dp"
+        android:background="@drawable/botao_show" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

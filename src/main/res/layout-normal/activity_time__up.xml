@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="Lucas.integrador.Time_Up">
+
+    <TextView
+        android:id="@+id/timeUpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/timeup"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/time"
+        />
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="300dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:background="@drawable/botao_show" />
+</LinearLayout>

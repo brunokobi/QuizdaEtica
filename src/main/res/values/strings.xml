@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">Quiz da Ética </string>
+    <string name="question" translatable="false">Pergunta</string>
+    <string name="play_again" translatable="false">jogue de novo</string>
+    <string name="Win" translatable="false">Você Venceu</string>
+    <string name="time" translatable="false">60</string>
+    <string name="correct" translatable="false">Certa a resposta</string>
+    <string name="wrongans" translatable="false">Você errou</string>
+    <string name="timeup" translatable="false">Tempo esgostado</string>
+    <string name="play_game" translatable="false">COMEÇAR</string>
+    <string name="quit" translatable="false">SAIR</string>
+    <string name="next" translatable="false">Próxima</string>
+    <string name="cancel" translatable="false">✖</string>
+</resources>
